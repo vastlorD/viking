@@ -6,7 +6,11 @@
 
 ## Testes de integração
 
-`tests/test_api.py` acrescenta 16 cenários HTTP: acesso administrativo, isolamento do extrato, cadastro, fotos inválidas, geofence, motor indisponível, duplicidade e limite de requisições. Requer `requirements-test.txt`. O ambiente local de edição não permitiu baixar as dependências HTTP; consulte a execução de CI do commit para o resultado desses testes.
+`tests/test_api.py` acrescenta 16 cenários HTTP: acesso administrativo, isolamento do extrato, cadastro, fotos inválidas, geofence, motor indisponível, duplicidade e limite de requisições. Requer `requirements-test.txt`.
+
+**Resultado: os 35 testes passaram em Windows e Linux com Python 3.12**, incluindo a integração HTTP. [Execução no GitHub Actions](https://github.com/vastlorD/viking/actions/runs/34329720371), referente ao commit `0a6b2389217f6506131ae843bbd4412d5ca06f4f`.
+
+O ambiente local de edição não permitiu baixar as dependências HTTP; a instalação e execução dessa parte foram realizadas pelos runners do GitHub Actions. No Linux, a resolução incluiu FastAPI 0.141.1, HTTPX 0.28.1, Pillow 12.3.0 e python-multipart 0.0.32. Esses resultados não incluem dependências das telas ou dos modelos faciais reais.
 
 ## Validação manual necessária
 
