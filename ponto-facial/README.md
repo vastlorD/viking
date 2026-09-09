@@ -1,5 +1,7 @@
 # Ponto Facial Viking
 
+**[Passo a passo detalhado de instalação e uso no Windows](docs/PASSO_A_PASSO.md)** — configuração inicial, cadastro, registro de presença, relatórios e solução de dificuldades.
+
 Sistema de estudo para registrar presença com **login, verificação facial individual, horário e localização**. Evolução de um protótipo próprio em Python, refatorado com assistência de IA para tornar as responsabilidades claras e corrigir falhas de acesso.
 
 O colaborador informa sua identidade pelo login; a selfie é comparada apenas à foto desse cadastro (verificação 1:1). O sistema não procura pessoas em uma base aberta nem faz análise de idade, gênero ou emoções.
