@@ -1,0 +1,10 @@
+{
+  "name": "viking-notas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Calculadora didática de notas em Node.js",
+  "scripts": {
+    "start": "node cli.js",
+    "test": "node --test notas.test.js"
+  }
+}
