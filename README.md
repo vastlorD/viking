@@ -1,5 +1,11 @@
 # Viking — laboratório de Python e Node.js
 
+## Projeto em destaque: Ponto Facial
+
+[Ponto Facial Viking](ponto-facial/README.md): sistema Python de presença com cadastro, verificação facial individual, geolocalização, API e painéis de administrador e colaborador. Inclui análise das correções, testes e instruções para Windows. A validação dos modelos reais e da câmera no computador de destino está pendente; veja o [escopo dos testes](ponto-facial/docs/VALIDACAO.md).
+
+## Calculadora de notas e automação
+
 Exemplos básicos de desenvolvimento, automação e cibersegurança defensiva. Comece pela calculadora abaixo ou pelo [analisador de logs](seguranca/README.md), que identifica repetição de falhas de autenticação em um arquivo local com dados fictícios.
 
 Projeto de estudo com a mesma regra de negócio em **Python e Node.js**. Recebe notas de 0 a 10, calcula a média e informa aprovação a partir de 7. O objetivo é praticar funções, listas, validação de entradas e testes automatizados com código pequeno.

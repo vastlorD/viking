@@ -1,0 +1,4 @@
+-r requirements.txt
+streamlit>=1.40,<2
+requests>=2.32,<3
+streamlit-js-eval>=0.1.7,<1

@@ -1,0 +1,4 @@
+-r requirements.txt
+deepface>=0.0.93,<1
+tf-keras>=2.16,<3
+torch>=2.2,<3

@@ -1,0 +1,15 @@
+.env
+.venv/
+data/
+uploads/
+uploads_ponto/
+*.db
+*.sqlite*
+*.jpg
+*.jpeg
+*.png
+*.pyc
+__pycache__/
+.pytest_cache/
+.deepface/
+*.csv
