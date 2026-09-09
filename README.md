@@ -1,5 +1,9 @@
 # Viking — laboratório de Python e Node.js
 
+## Cibersegurança e automação: Integrity Guard
+
+[Integrity Guard](integrity-guard/README.md): monitor defensivo de integridade de arquivos em Python. Cria uma base assinada, detecta arquivos criados, alterados e removidos, gera relatórios JSON e pode ser executado pelo Agendador de Tarefas do Windows ou pelo cron no Linux.
+
 ## Projeto em destaque: Ponto Facial
 
 [Ponto Facial Viking](ponto-facial/README.md): sistema Python de presença com cadastro, verificação facial individual, geolocalização, API e painéis de administrador e colaborador. Inclui análise das correções, testes e instruções para Windows. A validação dos modelos reais e da câmera no computador de destino está pendente; veja o [escopo dos testes](ponto-facial/docs/VALIDACAO.md).

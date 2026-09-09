@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.integrity-key
+baseline.json
+report.json
+reports/
+dist/
+build/
+*.egg-info/
